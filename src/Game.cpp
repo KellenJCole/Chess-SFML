@@ -6,7 +6,7 @@ Game::Game() : mWindow(sf::VideoMode(512, 512), "Chess") {
 	selectPieceJ = -1;
 	movePieceI = -1;
 	movePieceJ = -1;
-	if (!mBoardTexture.loadFromFile("Media/Textures/Board.png"))
+	if (!mBoardTexture.loadFromFile("src/Media/Textures/Board.png"))
 		throw std::runtime_error("Board image not loaded successfully.");
 
 	mBoard.setTexture(mBoardTexture);
