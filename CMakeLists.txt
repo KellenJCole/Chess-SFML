@@ -7,7 +7,7 @@ FetchContent_Declare(SFML
     GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(SFML)
  
-add_executable(Chess src/main.cpp)
+add_executable(Chess src/main.cpp src/Game.cpp src/PieceMap.cpp src/Piece.cpp)
 target_link_libraries(Chess PRIVATE sfml-graphics)
 target_compile_features(Chess PRIVATE cxx_std_17)
 if (WIN32 AND BUILD_SHARED_LIBS)
