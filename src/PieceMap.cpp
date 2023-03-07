@@ -1,31 +1,31 @@
 #include "PieceMap.hpp"
 
 void PieceMap::storeTextures() {
-    if (!textures[0][0].loadFromFile("Media/Textures/WhitePawn.png"))
+    if (!textures[0][0].loadFromFile("src/Media/Textures/WhitePawn.png"))
         throw std::runtime_error("Failed to load WhitePawn.png");
-    if (!textures[0][1].loadFromFile("Media/Textures/BlackPawn.png"))
+    if (!textures[0][1].loadFromFile("src/Media/Textures/BlackPawn.png"))
         throw std::runtime_error("Failed to load BlackPawn.png");
-    if (!textures[0][2].loadFromFile("Media/Textures/WhiteKnight.png"))
+    if (!textures[0][2].loadFromFile("src/Media/Textures/WhiteKnight.png"))
         throw std::runtime_error("Failed to load WhiteKnight.png");
-    if (!textures[0][3].loadFromFile("Media/Textures/BlackKnight.png"))
+    if (!textures[0][3].loadFromFile("src/Media/Textures/BlackKnight.png"))
         throw std::runtime_error("Failed to load BlackKnight.png");
-    if (!textures[0][4].loadFromFile("Media/Textures/WhiteBishop.png"))
+    if (!textures[0][4].loadFromFile("src/Media/Textures/WhiteBishop.png"))
         throw std::runtime_error("Failed to load WhiteBishop.png");
-    if (!textures[0][5].loadFromFile("Media/Textures/BlackBishop.png"))
+    if (!textures[0][5].loadFromFile("src/Media/Textures/BlackBishop.png"))
         throw std::runtime_error("Failed to load BlackBishop.png");
-    if (!textures[1][0].loadFromFile("Media/Textures/WhiteRook.png"))
+    if (!textures[1][0].loadFromFile("src/Media/Textures/WhiteRook.png"))
         throw std::runtime_error("Failed to load WhiteRook.png");
-    if (!textures[1][1].loadFromFile("Media/Textures/BlackRook.png"))
+    if (!textures[1][1].loadFromFile("src/Media/Textures/BlackRook.png"))
         throw std::runtime_error("Failed to load BlackRook.png");
-    if (!textures[1][2].loadFromFile("Media/Textures/WhiteQueen.png"))
+    if (!textures[1][2].loadFromFile("src/Media/Textures/WhiteQueen.png"))
         throw std::runtime_error("Failed to load WhiteQueen.png");
-    if (!textures[1][3].loadFromFile("Media/Textures/BlackQueen.png"))
+    if (!textures[1][3].loadFromFile("src/Media/Textures/BlackQueen.png"))
         throw std::runtime_error("Failed to load BlackQueen.png");
-    if (!textures[1][4].loadFromFile("Media/Textures/WhiteKing.png"))
+    if (!textures[1][4].loadFromFile("src/Media/Textures/WhiteKing.png"))
         throw std::runtime_error("Failed to load WhiteKing.png");
-    if (!textures[1][5].loadFromFile("Media/Textures/BlackKing.png"))
+    if (!textures[1][5].loadFromFile("src/Media/Textures/BlackKing.png"))
         throw std::runtime_error("Failed to load BlackKing.png");
-    if (!emptyTexture.loadFromFile("Media/Textures/EmptySpace.png"))
+    if (!emptyTexture.loadFromFile("src/Media/Textures/EmptySpace.png"))
         throw std::runtime_error("Failed to load EmptySpace.png");
 }
 
